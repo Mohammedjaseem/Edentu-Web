@@ -1,6 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="366" height="99" viewBox="0 0 366 99">
-  <g id="Ellipse_334" data-name="Ellipse 334" fill="none" stroke="#ff723a" stroke-width="3">
-    <ellipse cx="183" cy="49.5" rx="183" ry="49.5" stroke="none"/>
-    <ellipse cx="183" cy="49.5" rx="181.5" ry="48" fill="none"/>
-  </g>
+<svg width="366" height="99" viewBox="0 0 366 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_54_471)">
+<path d="M183 97.5C283.24 97.5 364.5 76.0097 364.5 49.5C364.5 22.9903 283.24 1.5 183 1.5C82.7603 1.5 1.5 22.9903 1.5 49.5C1.5 76.0097 82.7603 97.5 183 97.5Z" stroke="#0D7AD9" stroke-width="3"/>
+</g>
+<defs>
+<clipPath id="clip0_54_471">
+<rect width="366" height="99" fill="white"/>
+</clipPath>
+</defs>
 </svg>

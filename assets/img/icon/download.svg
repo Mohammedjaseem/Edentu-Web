@@ -1,6 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="17.607" height="20.542" viewBox="0 0 17.607 20.542">
-  <g id="download" transform="translate(-4.5 -2.25)">
-    <path id="Path_12290" data-name="Path 12290" d="M21.423,11.787l-1.034-1.034L14.82,16.313V2.25H13.353V16.313L7.784,10.753,6.75,11.787l7.336,7.336Z" transform="translate(-0.783)" fill="#ff723a"/>
-    <path id="Path_12291" data-name="Path 12291" d="M20.64,27v2.935H5.967V27H4.5v2.935A1.467,1.467,0,0,0,5.967,31.4H20.64a1.467,1.467,0,0,0,1.467-1.467V27Z" transform="translate(0 -8.61)" fill="#ff723a"/>
-  </g>
+<svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_59_691)">
+<path d="M16.14 9.537L15.106 8.503L9.53704 14.063V0H8.07004V14.063L2.50104 8.503L1.46704 9.537L8.80304 16.873L16.14 9.537Z" fill="#0D7AD9"/>
+<path d="M16.14 16.1396V19.0746H1.467V16.1396H0V19.0746C0.000529961 19.4634 0.155322 19.836 0.430381 20.1107C0.705439 20.3854 1.07827 20.5396 1.467 20.5396H16.14C16.5291 20.5396 16.9022 20.3851 17.1773 20.11C17.4524 19.8349 17.607 19.4617 17.607 19.0726V16.1396H16.14Z" fill="#0D7AD9"/>
+</g>
+<defs>
+<clipPath id="clip0_59_691">
+<rect width="17.607" height="20.542" fill="white"/>
+</clipPath>
+</defs>
 </svg>
