@@ -1,156 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148.414" height="149.414" viewBox="0 0 148.414 149.414">
-  <defs>
-    <clipPath id="clip-path">
-      <rect width="148.414" height="149.414" fill="none"/>
-    </clipPath>
-  </defs>
-  <g id="Shapes" clip-path="url(#clip-path)">
-    <g transform="translate(-448.793 -4485.793)">
-      <line id="Line_164" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-425.793 -4485.793)">
-      <line id="Line_164-2" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-402.793 -4485.793)">
-      <line id="Line_164-3" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-379.793 -4485.793)">
-      <line id="Line_164-4" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-356.793 -4485.793)">
-      <line id="Line_164-5" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-333.793 -4485.793)">
-      <line id="Line_164-6" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-310.793 -4485.793)">
-      <line id="Line_164-7" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-448.793 -4462.793)">
-      <line id="Line_164-8" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-425.793 -4462.793)">
-      <line id="Line_164-9" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-402.793 -4462.793)">
-      <line id="Line_164-10" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-379.793 -4462.793)">
-      <line id="Line_164-11" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-356.793 -4462.793)">
-      <line id="Line_164-12" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-333.793 -4462.793)">
-      <line id="Line_164-13" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-310.793 -4462.793)">
-      <line id="Line_164-14" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-448.793 -4439.793)">
-      <line id="Line_164-15" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-425.793 -4439.793)">
-      <line id="Line_164-16" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-402.793 -4439.793)">
-      <line id="Line_164-17" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-379.793 -4439.793)">
-      <line id="Line_164-18" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-356.793 -4439.793)">
-      <line id="Line_164-19" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-333.793 -4439.793)">
-      <line id="Line_164-20" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-310.793 -4439.793)">
-      <line id="Line_164-21" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-448.793 -4416.793)">
-      <line id="Line_164-22" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-425.793 -4416.793)">
-      <line id="Line_164-23" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-402.793 -4416.793)">
-      <line id="Line_164-24" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-379.793 -4416.793)">
-      <line id="Line_164-25" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-356.793 -4416.793)">
-      <line id="Line_164-26" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-333.793 -4416.793)">
-      <line id="Line_164-27" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-310.793 -4416.793)">
-      <line id="Line_164-28" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-448.793 -4393.793)">
-      <line id="Line_164-29" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-425.793 -4393.793)">
-      <line id="Line_164-30" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-402.793 -4393.793)">
-      <line id="Line_164-31" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-379.793 -4393.793)">
-      <line id="Line_164-32" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-356.793 -4393.793)">
-      <line id="Line_164-33" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-333.793 -4393.793)">
-      <line id="Line_164-34" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-310.793 -4393.793)">
-      <line id="Line_164-35" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-448.793 -4370.793)">
-      <line id="Line_164-36" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-425.793 -4370.793)">
-      <line id="Line_164-37" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-402.793 -4370.793)">
-      <line id="Line_164-38" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-379.793 -4370.793)">
-      <line id="Line_164-39" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-356.793 -4370.793)">
-      <line id="Line_164-40" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-333.793 -4370.793)">
-      <line id="Line_164-41" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-310.793 -4370.793)">
-      <line id="Line_164-42" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-448.793 -4347.793)">
-      <line id="Line_164-43" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-425.793 -4347.793)">
-      <line id="Line_164-44" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-402.793 -4347.793)">
-      <line id="Line_164-45" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-379.793 -4347.793)">
-      <line id="Line_164-46" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-356.793 -4347.793)">
-      <line id="Line_164-47" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-333.793 -4347.793)">
-      <line id="Line_164-48" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-    <g transform="translate(-310.793 -4347.793)">
-      <line id="Line_164-49" data-name="Line 164" x2="6" y2="6" transform="translate(449.5 4486.5)" fill="none" stroke="#8e66ff" stroke-linecap="round" stroke-width="2"/>
-    </g>
-  </g>
+<svg width="149" height="150" viewBox="0 0 149 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_54_368" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="149" height="150">
+<path d="M148.414 0H0V149.414H148.414V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_54_368)">
+<path d="M0.707031 0.707031L6.70703 6.70703" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M23.707 0.707031L29.707 6.70703" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M46.707 0.707031L52.707 6.70703" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M69.707 0.707031L75.707 6.70703" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M92.707 0.707031L98.707 6.70703" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M115.707 0.707031L121.707 6.70703" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M138.707 0.707031L144.707 6.70703" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M0.707031 23.707L6.70703 29.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M23.707 23.707L29.707 29.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M46.707 23.707L52.707 29.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M69.707 23.707L75.707 29.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M92.707 23.707L98.707 29.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M115.707 23.707L121.707 29.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M138.707 23.707L144.707 29.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M0.707031 46.707L6.70703 52.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M23.707 46.707L29.707 52.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M46.707 46.707L52.707 52.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M69.707 46.707L75.707 52.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M92.707 46.707L98.707 52.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M115.707 46.707L121.707 52.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M138.707 46.707L144.707 52.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M0.707031 69.707L6.70703 75.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M23.707 69.707L29.707 75.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M46.707 69.707L52.707 75.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M69.707 69.707L75.707 75.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M92.707 69.707L98.707 75.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M115.707 69.707L121.707 75.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M138.707 69.707L144.707 75.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M0.707031 92.707L6.70703 98.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M23.707 92.707L29.707 98.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M46.707 92.707L52.707 98.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M69.707 92.707L75.707 98.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M92.707 92.707L98.707 98.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M115.707 92.707L121.707 98.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M138.707 92.707L144.707 98.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M0.707031 115.707L6.70703 121.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M23.707 115.707L29.707 121.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M46.707 115.707L52.707 121.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M69.707 115.707L75.707 121.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M92.707 115.707L98.707 121.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M115.707 115.707L121.707 121.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M138.707 115.707L144.707 121.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M0.707031 138.707L6.70703 144.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M23.707 138.707L29.707 144.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M46.707 138.707L52.707 144.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M69.707 138.707L75.707 144.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M92.707 138.707L98.707 144.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M115.707 138.707L121.707 144.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+<path d="M138.707 138.707L144.707 144.707" stroke="#0D7AD9" stroke-width="2" stroke-linecap="round"/>
+</g>
 </svg>
