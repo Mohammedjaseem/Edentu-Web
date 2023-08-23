@@ -36,19 +36,28 @@
     <link rel="stylesheet" href="assets/css/spacing.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <style>
-      .qr-code {
+      .qr-code,
+      .video-exp,
+      .e-tips,
+      .mcq,
+      .qbanks,
+      .dqz,
+      .synopsis {
         z-index: 9999;
         position: fixed;
         bottom: 25px;
         right: 2%;
         width: 30%;
       }
-      .video-exp {
+      .close-btn {
+        color: black;
         z-index: 9999;
-        position: fixed;
-        bottom: 25px;
-        right: 2%;
-        width: 30%;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 40px; /* Increase the font size */
+        font-weight: bold; /* Make the font bold */
+        cursor: pointer;
       }
       .ap-button {
         cursor: pointer !important;
@@ -635,17 +644,91 @@
         </div>
       </section>
       <!-- why-chose-us start -->
+      <div class="video-exp alert alert-info">
+        <span class="close-btn" id="closeBtnVid">&times;</span>
+        <h4 class="pb-2">
+          <img
+            class="choses chose_01"
+            src="assets/img/icon/video.svg"
+            alt="Chose-img"
+          />&emsp13;Videos
+        </h4>
+
+        Get access to video lectures from experts on all topics
+      </div>
       <div class="qr-code alert alert-primary">
-        <h4 class="pb-2">QR Code</h4>
+        <span class="close-btn" id="closeBtnQR">&times;</span>
+        <h4 class="pb-2">
+          <img
+            class="choses chose_01"
+            src="assets/img/icon/qr.svg"
+            alt="Chose-img"
+          />&emsp13;QR Code
+        </h4>
 
         Doubt and confusions are a thing of the past. Scan QR code and get
         detailed explanation.
       </div>
-      <div class="video-exp alert alert-primary">
-        <h4 class="pb-2">QR Code</h4>
+      <div class="e-tips alert alert-success">
+        <span class="close-btn" id="closeBtnEtip">&times;</span>
+        <h4 class="pb-2">
+          <img
+            class="choses chose_01"
+            src="assets/img/icon/audio.svg"
+            alt="Chose-img"
+          />&emsp13;E-Tips
+        </h4>
 
-        Doubt and confusions are a thing of the past. Scan QR code and get
-        detailed explanation.
+        A series of short videos by experts, explaining concepts effectively
+      </div>
+      <div class="dqz alert alert-info">
+        <span class="close-btn" id="closeBtnDQ">&times;</span>
+        <h4 class="pb-2">
+          <img
+            class="choses chose_01"
+            src="assets/img/icon/dqz.svg"
+            alt="Chose-img"
+          />&emsp13;Daily Quizzes
+        </h4>
+        Practise and test yourself everyday with new questions on each topic
+      </div>
+      <div class="synopsis alert alert-warning">
+        <span class="close-btn" id="closeBtnSynp">&times;</span>
+        <h4 class="pb-2">
+          <img
+            class="choses chose_01"
+            src="assets/img/icon/synopsis.svg"
+            alt="Chose-img"
+          />&emsp13;Synopsis
+        </h4>
+
+        Revision made easy with Synopsis. Review each chapter in short and
+        strengthen your foundation for MDS preparation
+      </div>
+      <div class="mcq alert alert-warning">
+        <span class="close-btn" id="closeBtnMcq">&times;</span>
+        <h4 class="pb-2">
+          <img
+            class="choses chose_01"
+            src="assets/img/icon/mcq.svg"
+            alt="Chose-img"
+          />&emsp13;MCQs
+        </h4>
+
+        These multiple choice questions will help you build the right foundation
+        for MDS
+      </div>
+
+      <div class="qbanks alert alert-primary">
+        <span class="close-btn" id="closeBtnqbank">&times;</span>
+        <h4 class="pb-2">
+          <img
+            class="choses chose_01"
+            src="assets/img/icon/qsb.svg"
+            alt="Chose-img"
+          />&emsp13;Question Bank
+        </h4>
+        To Get to know and work on past year's questions from major universities
       </div>
       <section id="edentu-about" class="why-chose-us">
         <div
@@ -669,33 +752,40 @@
                         src="assets/img/icon/video.svg"
                         alt="Chose-img"
                     /></a>
-                    <a class="ap-button" onclick="videoExpShow()">
+                    <a class="ap-button" onclick="eTipsShow()">
                       <img
                         class="choses chose_03"
                         src="assets/img/icon/audio.svg"
                         alt="Chose-img"
                     /></a>
-                    <img
-                      class="choses chose_04"
-                      src="assets/img/icon/mcq.svg"
-                      alt="Chose-img"
-                    />
-                    <img
-                      class="choses chose_05"
-                      src="assets/img/icon/qsb.svg"
-                      alt="Chose-img"
-                    />
+                    <a class="ap-button" onclick="mcqShow()">
+                      <img
+                        class="choses chose_04"
+                        src="assets/img/icon/mcq.svg"
+                        alt="Chose-img"
+                    /></a>
+                    <a class="ap-button" onclick="qbankShow()"
+                      ><img
+                        class="choses chose_05"
+                        src="assets/img/icon/qsb.svg"
+                        alt="Chose-img"
+                    /></a>
                   </div>
-                  <div class="feature tag_01">
-                    <span><img src="assets/img/icon/quiz.svg" alt="" /></span>
-                    Daily Quizzes
-                  </div>
-                  <div class="feature tag_02">
-                    <span
-                      ><img src="assets/img/icon/catalog.svg" alt=""
-                    /></span>
-                    Synopsis
-                  </div>
+                  <a class="ap-button" onclick="dQzShow()"
+                    ><div class="feature tag_01">
+                      <span><img src="assets/img/icon/quiz.svg" alt="" /></span>
+                      Daily Quizzes
+                    </div></a
+                  >
+
+                  <a class="ap-button" onclick="synpShow()"
+                    ><div class="feature tag_02">
+                      <span
+                        ><img src="assets/img/icon/catalog.svg" alt=""
+                      /></span>
+                      Synopsis
+                    </div></a
+                  >
                   <div class="feature tag_03">
                     <span><i class="fal fa-check"></i></span> Quality Education
                   </div>
@@ -1779,10 +1869,93 @@
       });
     </script>
     <script>
+      const closeBtnQR = document
+        .getElementById("closeBtnQR")
+        .addEventListener("click", () => closePopup(".qr-code"));
+
+      const closeBtnVid = document
+        .getElementById("closeBtnVid")
+        .addEventListener("click", () => closePopup(".video-exp"));
+
+      const closeBtnEtip = document
+        .getElementById("closeBtnEtip")
+        .addEventListener("click", () => closePopup(".e-tips"));
+
+      const closeBtnMcq = document
+        .getElementById("closeBtnMcq")
+        .addEventListener("click", () => closePopup(".mcq"));
+
+      const closeBtnqbank = document
+        .getElementById("closeBtnqbank")
+        .addEventListener("click", () => closePopup(".qbanks"));
+      const closeBtnDQ = document
+        .getElementById("closeBtnDQ")
+        .addEventListener("click", () => closePopup(".dqz"));
+      const closeBtnSynp = document
+        .getElementById("closeBtnSynp")
+        .addEventListener("click", () => closePopup(".synopsis"));
+
+      function closePopup(param) {
+        document.querySelector(param).style.zIndex = 9999;
+        document.querySelector(param).style.display = "none";
+      }
+    </script>
+    <script>
+      let currentZIndex = 9999;
       function qrCodeShow() {
+        const element = document.querySelector(".qr-code");
+        element.style.zIndex = currentZIndex++;
         $(".qr-code").show();
         setTimeout(function () {
           $(".qr-code").hide();
+        }, 6000);
+      }
+      function videoExpShow() {
+        const element = document.querySelector(".video-exp");
+        element.style.zIndex = currentZIndex++;
+        $(".video-exp").show();
+        setTimeout(function () {
+          $(".video-exp").hide();
+        }, 6000);
+      }
+      function eTipsShow() {
+        const element = document.querySelector(".e-tips");
+        element.style.zIndex = currentZIndex++;
+        $(".e-tips").show();
+        setTimeout(function () {
+          $(".e-tips").hide();
+        }, 6000);
+      }
+      function mcqShow() {
+        const element = document.querySelector(".mcq");
+        element.style.zIndex = currentZIndex++;
+        $(".mcq").show();
+        setTimeout(function () {
+          $(".mcq").hide();
+        }, 6000);
+      }
+      function qbankShow() {
+        const element = document.querySelector(".qbanks");
+        element.style.zIndex = currentZIndex++;
+        $(".qbanks").show();
+        setTimeout(function () {
+          $(".qbanks").hide();
+        }, 6000);
+      }
+      function dQzShow() {
+        const element = document.querySelector(".dqz");
+        element.style.zIndex = currentZIndex++;
+        $(".dqz").show();
+        setTimeout(function () {
+          $(".dqz").hide();
+        }, 6000);
+      }
+      function synpShow() {
+        const element = document.querySelector(".synopsis");
+        element.style.zIndex = currentZIndex++;
+        $(".synopsis").show();
+        setTimeout(function () {
+          $(".synopsis").hide();
         }, 6000);
       }
     </script>
