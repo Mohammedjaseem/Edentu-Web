@@ -74,6 +74,9 @@
       .alert {
         display: none;
       }
+      .poster{
+      width:270px;object-fit: fill;
+      }
       /* Styles for the individual image containers */
       .floating-button {
         position: fixed;
@@ -275,7 +278,7 @@
                           role="button"
                           data-bs-toggle="dropdown"
                           aria-expanded="false"
-                          >Pages</a
+                          >Quick Links</a
                         >
                         <ul
                           class="dropdown-menu"
@@ -286,38 +289,16 @@
                               >About Us</a
                             >
                           </li>
-                          <li>
-                            <a class="dropdown-item" href="courses.html"
-                              >Course One</a
-                            >
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="courses-2.html"
-                              >Course Two</a
-                            >
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="course-details.html"
-                              >Courses Details</a
-                            >
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="price.html">Price</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="instructor.html"
-                              >Instructor</a
-                            >
                           </li>
                           <li>
                             <a
                               class="dropdown-item"
                               href="instructor-profile.html"
-                              >Instructor Profile</a
+                              >Instructors</a
                             >
                           </li>
                           <li>
-                            <a class="dropdown-item" href="faq.html">FAQ</a>
+                            <a class="dropdown-item" href="faq.html">App User Manual</a>
                           </li>
                         </ul>
                       </li>
@@ -330,20 +311,40 @@
                           data-bs-toggle="dropdown"
                           aria-expanded="false"
                         >
-                          Blog
+                          Courses
                         </a>
                         <ul
                           class="dropdown-menu"
                           aria-labelledby="navbarDropdown4"
                         >
                           <li>
-                            <a class="dropdown-item" href="blog.html"
-                              >Blog Grid</a
+                            <a class="dropdown-item" href="course-details.html"
+                              >NEET MDS</a
                             >
                           </li>
                           <li>
-                            <a class="dropdown-item" href="blog-details.html"
-                              >Blog Details</a
+                            <a class="dropdown-item" href="course-details.html"
+                              >First Year BDS</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="course-details.html"
+                              >Second Year BDS</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="course-details.html"
+                              >Third Year BDS</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="course-details.html"
+                              >First Year Part-1</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="course-details.html"
+                              >First Year Part-2</a
                             >
                           </li>
                         </ul>
@@ -454,23 +455,46 @@
           </li>
           <li><a href="about.html">About</a></li>
           <li class="has-dropdown">
-            <a href="#">Pages</a>
+            <a href="#">Quick Links</a>
             <ul class="sub-menu">
-              <li><a href="courses.html">Course One</a></li>
-              <li><a href="courses-2.html">Course Two</a></li>
-              <li><a href="course-details.html">Courses Details</a></li>
-              <li><a href="price.html">Price</a></li>
-              <li><a href="instructor.html">Instructor</a></li>
-              <li><a href="instructor-profile.html">Instructor Profile</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-              <li><a href="login.html">login</a></li>
+              <li><a href="instructor-profile.html">Instructors</a></li>
+              <li><a href="faq.html">App User Manual</a></li>
+              <li><a href="https://study.edentu.com/">Sign Up</a></li>
             </ul>
           </li>
           <li class="has-dropdown">
-            <a href="#">Blogs</a>
+            <a href="#">Courses</a>
             <ul class="sub-menu">
-              <li><a href="blog.html">Blog Grid</a></li>
-              <li><a href="blog-details.html">Blog Details</a></li>
+             <li>
+                            <a  href="course-details.html"
+                              >NEET MDS</a
+                            >
+                          </li>
+                          <li>
+                            <a  href="course-details.html"
+                              >First Year BDS</a
+                            >
+                          </li>
+                          <li>
+                            <a  href="course-details.html"
+                              >Second Year BDS</a
+                            >
+                          </li>
+                          <li>
+                            <a  href="course-details.html"
+                              >Third Year BDS</a
+                            >
+                          </li>
+                          <li>
+                            <a  href="course-details.html"
+                              >First Year Part-1</a
+                            >
+                          </li>
+                          <li>
+                            <a  href="course-details.html"
+                              >First Year Part-2</a
+                            >
+                          </li>
             </ul>
           </li>
           <li><a href="contact.html">Contacts Us</a></li>
@@ -608,7 +632,7 @@
       <!--great-deal-area start-->
 
       <section
-        class="great-deal-area pt-150 pb-90 pt-md-50 pt-s-50 pb-md-40 pt-xs-0 pb-xs-40"
+        class="great-deal-area pt-150 pb-20 pt-md-50 pt-s-50 pb-md-20 pt-xs-0 pb-xs-20"
       >
         <div class="container">
           <div class="row justify-content-lg-center justify-content-start">
@@ -672,197 +696,101 @@
           </div>
         </div>
       </section>
-      <section class="course-instructor nav-style-two pos-rel">
-        <div class="course-blur-shape"></div>
-        <div class="course-bg-space">
-          <div class="container">
-            <div class="widget mb-50">
-              <div class="blog-categories-widget">
-                <h4 class="sub-title pb-20 mb-25 pt-25">Recent Post</h4>
-                <ul class="blog-recent-post">
-                  <li>
-                    <div class="posts mb-20">
-                      <img
-                        src="assets/img/blog/24.jpg"
-                        alt=""
-                        class="posts__thumb mb-15"
-                      />
-                      <p>1st July , 2021</p>
-                      <h6>
-                        <a href="blog-details.html"
-                          >Lorem Ipsum is simply dummy text</a
-                        >
-                      </h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="posts mb-20">
-                      <img
-                        src="assets/img/blog/25.jpg"
-                        alt=""
-                        class="posts__thumb mb-15"
-                      />
-                      <p>1st July , 2021</p>
-                      <h6>
-                        <a href="blog-details.html"
-                          >Ipsum Lorem is simply dummy text</a
-                        >
-                      </h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="posts mb-20">
-                      <img
-                        src="assets/img/blog/26.jpg"
-                        alt=""
-                        class="posts__thumb mb-15"
-                      />
-                      <p>1st July , 2021</p>
-                      <h6>
-                        <a href="blog-details.html"
-                          >Lorem Ipsum is simply dummy text</a
-                        >
-                      </h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="posts mb-20">
-                      <img
-                        src="assets/img/blog/27.jpg"
-                        alt=""
-                        class="posts__thumb mb-15"
-                      />
-                      <p>1st July , 2021</p>
-                      <h6>
-                        <a href="blog-details.html"
-                          >Ipsum Lorem is simply dummy text</a
-                        >
-                      </h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="posts mb-20">
-                      <img
-                        src="assets/img/blog/28.jpg"
-                        alt=""
-                        class="posts__thumb mb-15"
-                      />
-                      <p>1st July , 2021</p>
-                      <h6>
-                        <a href="blog-details.html"
-                          >Lorem Ipsum is simply dummy text</a
-                        >
-                      </h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="posts mb-20">
-                      <img
-                        src="assets/img/blog/29.jpg"
-                        alt=""
-                        class="posts__thumb mb-15"
-                      />
-                      <p>1st July , 2021</p>
-                      <h6>
-                        <a href="blog-details.html"
-                          >Ipsum Lorem is simply dummy text</a
-                        >
-                      </h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="posts mb-20">
-                      <img
-                        src="assets/img/blog/24.jpg"
-                        alt=""
-                        class="posts__thumb mb-15"
-                      />
-                      <p>1st July , 2021</p>
-                      <h6>
-                        <a href="blog-details.html"
-                          >Lorem Ipsum is simply dummy text</a
-                        >
-                      </h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="posts mb-20">
-                      <img
-                        src="assets/img/blog/25.jpg"
-                        alt=""
-                        class="posts__thumb mb-15"
-                      />
-                      <p>1st July , 2021</p>
-                      <h6>
-                        <a href="blog-details.html"
-                          >Ipsum Lorem is simply dummy text</a
-                        >
-                      </h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="posts mb-20">
-                      <img
-                        src="assets/img/blog/26.jpg"
-                        alt=""
-                        class="posts__thumb mb-15"
-                      />
-                      <p>1st July , 2021</p>
-                      <h6>
-                        <a href="blog-details.html"
-                          >Lorem Ipsum is simply dummy text</a
-                        >
-                      </h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="posts mb-20">
-                      <img
-                        src="assets/img/blog/27.jpg"
-                        alt=""
-                        class="posts__thumb mb-15"
-                      />
-                      <p>1st July , 2021</p>
-                      <h6>
-                        <a href="blog-details.html"
-                          >Ipsum Lorem is simply dummy text</a
-                        >
-                      </h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="posts mb-20">
-                      <img
-                        src="assets/img/blog/28.jpg"
-                        alt=""
-                        class="posts__thumb mb-15"
-                      />
-                      <p>1st July , 2021</p>
-                      <h6>
-                        <a href="blog-details.html"
-                          >Lorem Ipsum is simply dummy text</a
-                        >
-                      </h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="posts mb-20">
-                      <img
-                        src="assets/img/blog/29.jpg"
-                        alt=""
-                        class="posts__thumb mb-15"
-                      />
-                      <p>1st July , 2021</p>
-                      <h6>
-                        <a href="blog-details.html"
-                          >Ipsum Lorem is simply dummy text</a
-                        >
-                      </h6>
-                    </div>
-                  </li>
-                </ul>
+      <section class="plan-area pb-40 pb-md-20 pb-xs-20">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-9">
+              <div class="section-title text-center mb-55">
+                <h2>Exciting Offers</h2>
               </div>
             </div>
+          </div>
+
+          <div class="tab-content" id="nav-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="nav-home"
+              role="tabpanel"
+              aria-labelledby="nav-home-tab"
+            >
+              <div class="row justify-content-center" >
+                <div class="col-lg-4 col-md-6" id="div1">
+                  <div class="plan text-center mb-30">
+                    <div class="pr__header mb-30">
+                      <h2 class="offer_title"></h2>
+                     
+                    </div>
+                    <div class="pr__body">
+                      <img alt="poster" class="poster" >
+                      <h2 class="mb-30">
+                        <span class="old-price">$699</span>
+                        <b
+                          ><sup>$</sup>399<span class="new-price"
+                            >/ Monthly</span
+                          >
+                        </b>
+                        
+                      </h2>
+                       <ul class="price-list">
+                          <li class="last-date"><b>offer valid till: <span class="last-date-value"></span></b></li>
+                        </ul>
+                    </div>
+                    <div class="pr__footer mt-20">
+                      <a href="#" class="theme_btn price_btn">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6" id="div2">
+                  <div class="plan plan-2 text-center mb-30">
+                    <div class="pr__header mb-30">
+                       <h2 class="offer_title"></h2>
+                    </div>
+                    <div class="pr__body">
+                       <img alt="poster" class="poster" >
+                      <h2 class="mb-30">
+                        <span class="old-price">$899</span>
+                        <b
+                          ><sup>$</sup>599<span class="new-price"
+                            >/ Monthly</span
+                          >
+                        </b>
+                      </h2>
+                       <ul class="price-list">
+                          <li class="last-date"><b>offer valid till: <span class="last-date-value"></span></b></li>
+                        </ul>
+                    </div>
+                    <div class="pr__footer mt-20">
+                      <a href="#" class="theme_btn price_btn active">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6" id="div3">
+                  <div class="plan plan-2a text-center mb-30">
+                    <div class="pr__header mb-30">
+                       <h2 class="offer_title"></h2>
+                    </div>
+                    <div class="pr__body">
+                        <img alt="poster" class="poster" >
+                      <h2 class="mb-30">
+                        <span class="old-price">$1299</span>
+                        <b
+                          ><sup>$</sup>799<span class="new-price"
+                            >/ Monthly</span
+                          >
+                        </b>
+                      </h2>
+                       <ul class="price-list">
+                          <li class="last-date"><b>offer valid till: <span class="last-date-value"></span></b></li>
+                        </ul>
+                    </div>
+                    <div class="pr__footer mt-20">
+                      <a href="#" class="theme_btn price_btn">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
           </div>
         </div>
       </section>
@@ -1423,9 +1351,9 @@
                     </div>
                     <div class="z-instructors__content">
                       <h4 class="sub-title mb-10">
-                        <a href="instructor-profile.html">John Zlathan</a>
+                        <a href="instructor-profile.html">Dr. M.S. Balakrishna</a>
                       </h4>
-                      <p>Software Development</p>
+                      <p>Oral and Maxillofacial Surgeon<br/>(Academic Director)</p>
                     </div>
                   </div>
                 </div>
@@ -1442,9 +1370,9 @@
                     </div>
                     <div class="z-instructors__content">
                       <h4 class="sub-title mb-10">
-                        <a href="instructor-profile.html">Mally Yan</a>
+                        <a href="instructor-profile.html">Dr. Nandini</a>
                       </h4>
-                      <p>UI/UX Designer</p>
+                      <p>Anatomy</p>
                     </div>
                   </div>
                 </div>
@@ -1461,9 +1389,9 @@
                     </div>
                     <div class="z-instructors__content">
                       <h4 class="sub-title mb-10">
-                        <a href="instructor-profile.html">Mesud Lamb</a>
+                        <a href="instructor-profile.html">Dr. Gopikrishnan V</a>
                       </h4>
-                      <p>Programmer</p>
+                      <p>Oral Pathology & General Pathology</p>
                     </div>
                   </div>
                 </div>
@@ -1480,47 +1408,9 @@
                     </div>
                     <div class="z-instructors__content">
                       <h4 class="sub-title mb-10">
-                        <a href="instructor-profile.html">Havana Lyon</a>
+                        <a href="instructor-profile.html">Dr. Shreshta Sathish</a>
                       </h4>
-                      <p>Digital Marketing</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="z-instructors text-center mb-30">
-                    <div class="z-instructors__thumb mb-15">
-                      <img src="assets/img/instructor/01.jpg" alt="" />
-                      <div class="social-media">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                      </div>
-                    </div>
-                    <div class="z-instructors__content">
-                      <h4 class="sub-title mb-10">
-                        <a href="instructor-profile.html">John Zlathan</a>
-                      </h4>
-                      <p>Software Development</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="z-instructors text-center mb-30">
-                    <div class="z-instructors__thumb mb-15">
-                      <img src="assets/img/instructor/02.jpg" alt="" />
-                      <div class="social-media">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                      </div>
-                    </div>
-                    <div class="z-instructors__content">
-                      <h4 class="sub-title mb-10">
-                        <a href="instructor-profile.html">Mally Yan</a>
-                      </h4>
-                      <p>UI/UX Designer</p>
+                      <p>Prosthodontist</p>
                     </div>
                   </div>
                 </div>
@@ -1554,12 +1444,12 @@
                   <div class="testimonial-authors overflow-hidden mb-15">
                     <div class="testimonial-authors__avatar">
                       <img
-                        src="assets/img/testimonial/01.png"
+                        src="assets/img/testimonial/02.jpg"
                         alt="testi-author"
                       />
                     </div>
                     <div class="testimonial-authors__content mt-10">
-                      <h4 class="sub-title">David</h4>
+                      <h4 class="sub-title">Hima</h4>
                       <p>BDS First Year</p>
                     </div>
                   </div>
@@ -1610,18 +1500,17 @@
                   <div class="testimonial-authors overflow-hidden mb-15">
                     <div class="testimonial-authors__avatar">
                       <img
-                        src="assets/img/testimonial/03.png"
+                        src="assets/img/testimonial/03.jpg"
                         alt="testi-author"
                       />
                     </div>
                     <div class="testimonial-authors__content mt-10">
-                      <h4 class="sub-title">Dr. Hima</h4>
+                      <h4 class="sub-title">Dr. Adrija Devi TK</h4>
                       <p>First Year MDC</p>
                     </div>
                   </div>
                   <p>
-                    Edentu has revolutionized my dear dental education journey!
-                    The inetractive courses and detailed content have
+                   Edentu class was very helpful for our university exam preperations. Thank you for your support, classes, test and papers made us to improve ourselves. Thank you words are not enough to express our feelings... Thank you so much.
                   </p>
                   <div class="quote-icon mt-20">
                     <img src="assets/img/icon/quote.svg" alt="quote-icon" />
@@ -1635,19 +1524,17 @@
                   <div class="testimonial-authors overflow-hidden mb-15">
                     <div class="testimonial-authors__avatar">
                       <img
-                        src="assets/img/testimonial/01.png"
+                        src="assets/img/testimonial/01.jpg"
                         alt="testi-author"
                       />
                     </div>
                     <div class="testimonial-authors__content mt-10">
-                      <h4 class="sub-title">Georgia Laila</h4>
-                      <p>Full Stack Developer</p>
+                      <h4 class="sub-title">Nora Civy</h4>
+                      <p>BDS 2nd Year</p>
                     </div>
                   </div>
                   <p>
-                    " Lorem ipsum dolor sit amet, consetetur sadip scing elitr,
-                    sed di nonumy eirmod tempor invidt utlabore et dolore magn
-                    aliq erat.
+                   Sir you've guided in a different way especially for anatomy by effective time tables, and also provided us a space for studying at college. The group studies, chapter wise test and of course the realization of what to write hasn made huge impact. Thank you beyond words.
                   </p>
                   <div class="quote-icon mt-20">
                     <img src="assets/img/icon/quote.svg" alt="quote-icon" />
@@ -1668,13 +1555,22 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <div class="section-title text-center mb-60">
-                  <h5 class="bottom-line mb-25">Latest News</h5>
-                  <h2 class="mb-25">Lots of new Blogs & News</h2>
+                  <h5 class="bottom-line mb-25">Latest Highlights</h5>
+                  <h2 class="mb-25">Our Achievements & News</h2>
                 </div>
               </div>
+              <div class="row justify-content-center">
+            <div class="col-xl-12 text-center">
+              <div class="portfolio-menu mb-45">
+                <button class="gf_btn active" data-filter="*">All</button>
+                <button class="gf_btn" data-filter=".achi">Achievements</button>
+                <button class="gf_btn" data-filter=".news">News</button>
+              </div>
             </div>
-            <div class="row">
-              <div class="col-lg-4 col-md-6">
+          </div>
+            </div>
+            <div class="grid row">
+              <div class="col-lg-4 col-md-6 grid-item course-card achi">
                 <div
                   class="z-blogs mb-30 wow fadeInUp2 animated"
                   data-wow-delay=".1s"
@@ -1700,7 +1596,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 grid-item course-card achi">
                 <div
                   class="z-blogs mb-30 wow fadeInUp2 animated"
                   data-wow-delay=".2s"
@@ -1727,7 +1623,86 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 grid-item course-card news">
+                <div
+                  class="z-blogs mb-30 wow fadeInUp2 animated"
+                  data-wow-delay=".3s"
+                >
+                  <div class="z-blogs__thumb mb-30">
+                    <a href="blog-details.html"
+                      ><img src="assets/img/blog/03.jpg" alt="blog-img"
+                    /></a>
+                  </div>
+                  <div class="z-blogs__content">
+                    <h5 class="mb-25">Creative . Programmer</h5>
+                    <h4 class="sub-title mb-15">
+                      <a href="blog-details.html"
+                        >Using Social Media to Support Online Teaching</a
+                      >
+                    </h4>
+                    <div
+                      class="z-blogs__meta d-sm-flex justify-content-between pt-20"
+                    >
+                      <span>Date : June 15 , 2021</span>
+                      <span>By Guest Admin</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 grid-item course-card news">
+                <div
+                  class="z-blogs mb-30 wow fadeInUp2 animated"
+                  data-wow-delay=".1s"
+                >
+                  <div class="z-blogs__thumb mb-30">
+                    <a href="blog-details.html"
+                      ><img src="assets/img/blog/01.jpg" alt="blog-img"
+                    /></a>
+                  </div>
+                  <div class="z-blogs__content">
+                    <h5 class="mb-25">Online . School . Skill</h5>
+                    <h4 class="sub-title mb-15">
+                      <a href="blog-details.html"
+                        >5 Ways to Use Padlet in Higher -Ed Online Classroom</a
+                      >
+                    </h4>
+                    <div
+                      class="z-blogs__meta d-sm-flex justify-content-between pt-20"
+                    >
+                      <span>Date : June 15 , 2021</span>
+                      <span>By Guest Admin</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 grid-item course-card achi">
+                <div
+                  class="z-blogs mb-30 wow fadeInUp2 animated"
+                  data-wow-delay=".2s"
+                >
+                  <div class="z-blogs__thumb mb-30">
+                    <a href="blog-details.html"
+                      ><img src="assets/img/blog/02.jpg" alt="blog-img"
+                    /></a>
+                  </div>
+                  <div class="z-blogs__content">
+                    <h5 class="mb-25">Education . Expert</h5>
+                    <h4 class="sub-title mb-15">
+                      <a href="blog-details.html"
+                        >4 New Zoom Features Enhance Virtual Teaching &
+                        Learning</a
+                      >
+                    </h4>
+                    <div
+                      class="z-blogs__meta d-sm-flex justify-content-between pt-20"
+                    >
+                      <span>Date : June 15 , 2021</span>
+                      <span>By Guest Admin</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 grid-item course-card news">
                 <div
                   class="z-blogs mb-30 wow fadeInUp2 animated"
                   data-wow-delay=".3s"
@@ -1754,14 +1729,14 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
               <div
                 class="col-lg-12 text-center mt-20 mb-30 wow fadeInUp2 animated"
                 data-wow-delay=".4s"
               >
                 <a href="blog-details.html" class="theme_btn">Load More</a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -2185,6 +2160,34 @@
           $(".synopsis").hide();
         }, 6000);
       }
+    </script>
+     <script>
+        // Function to fetch data from the API and populate the divs
+        function fetchDataAndPopulateDivs() {
+            $.get("https://app.conext.in/Edentu/offers/", function (data) {
+                // Loop through the data and populate the divs
+                for (let i = 0; i < data.length && i < 3; i++) {
+                    const offer = data[i];
+                    const divId = `div${i + 1}`; // Get the corresponding div ID
+
+                    // Update the div elements with API data
+                    $(`#${divId} .offer_title`).text(offer.offer_title);
+                    $(`#${divId} .poster`).attr("src", offer.poster);
+                    $(`#${divId} .last-date-value`).text(offer.last_date);
+                }
+
+                // Hide any remaining divs if there are fewer than 3 items in the API response
+                for (let i = data.length; i < 3; i++) {
+                    const divId = `div${i + 1}`;
+                    $(`#${divId}`).hide();
+                }
+            });
+        }
+
+        // Call the function to populate the divs when the page loads
+        $(document).ready(function () {
+            fetchDataAndPopulateDivs();
+        });
     </script>
   </body>
 </html>
