@@ -74,6 +74,9 @@
       .alert {
         display: none;
       }
+      .poster{
+      width:270px;object-fit: fill;
+      }
       /* Styles for the individual image containers */
       .floating-button {
         position: fixed;
@@ -710,14 +713,15 @@
               role="tabpanel"
               aria-labelledby="nav-home-tab"
             >
-              <div class="row">
-                <div class="col-lg-4 col-md-6">
+              <div class="row justify-content-center" >
+                <div class="col-lg-4 col-md-6" id="div1">
                   <div class="plan text-center mb-30">
                     <div class="pr__header mb-30">
-                      <h2>Basic</h2>
-                      <h5>Best Choice for individuals</h5>
+                      <h2 class="offer_title"></h2>
+                     
                     </div>
                     <div class="pr__body">
+                      <img alt="poster" class="poster" >
                       <h2 class="mb-30">
                         <span class="old-price">$699</span>
                         <b
@@ -725,24 +729,24 @@
                             >/ Monthly</span
                           >
                         </b>
+                        
                       </h2>
-                      <ul class="price-list">
-                        <li>All Courses</li>
-                        <li>For One Person Uses Only</li>
-                      </ul>
+                       <ul class="price-list">
+                          <li class="last-date"><b>offer valid till: <span class="last-date-value"></span></b></li>
+                        </ul>
                     </div>
-                    <div class="pr__footer mt-50">
+                    <div class="pr__footer mt-20">
                       <a href="#" class="theme_btn price_btn">Buy Now</a>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" id="div2">
                   <div class="plan plan-2 text-center mb-30">
                     <div class="pr__header mb-30">
-                      <h2>Standard</h2>
-                      <h5>Best Choice for Yearly Access</h5>
+                       <h2 class="offer_title"></h2>
                     </div>
                     <div class="pr__body">
+                       <img alt="poster" class="poster" >
                       <h2 class="mb-30">
                         <span class="old-price">$899</span>
                         <b
@@ -751,23 +755,22 @@
                           >
                         </b>
                       </h2>
-                      <ul class="price-list">
-                        <li>All Courses</li>
-                        <li>For One Person Uses Only</li>
-                      </ul>
+                       <ul class="price-list">
+                          <li class="last-date"><b>offer valid till: <span class="last-date-value"></span></b></li>
+                        </ul>
                     </div>
-                    <div class="pr__footer mt-50">
+                    <div class="pr__footer mt-20">
                       <a href="#" class="theme_btn price_btn active">Buy Now</a>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" id="div3">
                   <div class="plan plan-2a text-center mb-30">
                     <div class="pr__header mb-30">
-                      <h2>Unlimited</h2>
-                      <h5>Billed once. Get lifetime access.</h5>
+                       <h2 class="offer_title"></h2>
                     </div>
                     <div class="pr__body">
+                        <img alt="poster" class="poster" >
                       <h2 class="mb-30">
                         <span class="old-price">$1299</span>
                         <b
@@ -776,117 +779,18 @@
                           >
                         </b>
                       </h2>
-                      <ul class="price-list">
-                        <li>All Courses</li>
-                        <li>For One Person Uses Only</li>
-                      </ul>
+                       <ul class="price-list">
+                          <li class="last-date"><b>offer valid till: <span class="last-date-value"></span></b></li>
+                        </ul>
                     </div>
-                    <div class="pr__footer mt-50">
+                    <div class="pr__footer mt-20">
                       <a href="#" class="theme_btn price_btn">Buy Now</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div
-              class="tab-pane fade"
-              id="nav-profile"
-              role="tabpanel"
-              aria-labelledby="nav-profile-tab"
-            >
-              <div class="row">
-                <div class="col-lg-4 col-md-6">
-                  <div class="plan text-center mb-30">
-                    <div class="pr__header mb-30">
-                      <h2>Basic</h2>
-                      <h5>Best Choice for individuals</h5>
-                      <img
-                        src="assets/img/icon/writing.svg"
-                        alt=""
-                        class="pr-icon"
-                      />
-                    </div>
-                    <div class="pr__body">
-                      <h2 class="mb-30">
-                        <span class="old-price">$699</span>
-                        <b
-                          ><sup>$</sup>399<span class="new-price"
-                            >/ Monthly</span
-                          >
-                        </b>
-                      </h2>
-                      <ul class="price-list">
-                        <li>All Courses</li>
-                        <li>For One Person Uses Only</li>
-                      </ul>
-                    </div>
-                    <div class="pr__footer mt-50">
-                      <a href="#" class="theme_btn price_btn">Buy Now</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="plan plan-2 text-center mb-30">
-                    <div class="pr__header mb-30">
-                      <h2>Standard</h2>
-                      <h5>Best Choice for Yearly Access</h5>
-                      <img
-                        src="assets/img/icon/test.svg"
-                        alt=""
-                        class="pr-icon"
-                      />
-                    </div>
-                    <div class="pr__body">
-                      <h2 class="mb-30">
-                        <span class="old-price">$899</span>
-                        <b
-                          ><sup>$</sup>599<span class="new-price"
-                            >/ Monthly</span
-                          >
-                        </b>
-                      </h2>
-                      <ul class="price-list">
-                        <li>All Courses</li>
-                        <li>For One Person Uses Only</li>
-                      </ul>
-                    </div>
-                    <div class="pr__footer mt-50">
-                      <a href="#" class="theme_btn price_btn active">Buy Now</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="plan plan-2a text-center mb-30">
-                    <div class="pr__header mb-30">
-                      <h2>Unlimited</h2>
-                      <h5>Billed once. Get lifetime access.</h5>
-                      <img
-                        src="assets/img/icon/lifetime.svg"
-                        alt=""
-                        class="pr-icon"
-                      />
-                    </div>
-                    <div class="pr__body">
-                      <h2 class="mb-30">
-                        <span class="old-price">$1299</span>
-                        <b
-                          ><sup>$</sup>799<span class="new-price"
-                            >/ Monthly</span
-                          >
-                        </b>
-                      </h2>
-                      <ul class="price-list">
-                        <li>All Courses</li>
-                        <li>For One Person Uses Only</li>
-                      </ul>
-                    </div>
-                    <div class="pr__footer mt-50">
-                      <a href="#" class="theme_btn price_btn">Buy Now</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        
           </div>
         </div>
       </section>
@@ -1540,12 +1444,12 @@
                   <div class="testimonial-authors overflow-hidden mb-15">
                     <div class="testimonial-authors__avatar">
                       <img
-                        src="assets/img/testimonial/01.png"
+                        src="assets/img/testimonial/02.jpg"
                         alt="testi-author"
                       />
                     </div>
                     <div class="testimonial-authors__content mt-10">
-                      <h4 class="sub-title">David</h4>
+                      <h4 class="sub-title">Hima</h4>
                       <p>BDS First Year</p>
                     </div>
                   </div>
@@ -1596,7 +1500,7 @@
                   <div class="testimonial-authors overflow-hidden mb-15">
                     <div class="testimonial-authors__avatar">
                       <img
-                        src="assets/img/testimonial/03.png"
+                        src="assets/img/testimonial/03.jpg"
                         alt="testi-author"
                       />
                     </div>
@@ -1620,7 +1524,7 @@
                   <div class="testimonial-authors overflow-hidden mb-15">
                     <div class="testimonial-authors__avatar">
                       <img
-                        src="assets/img/testimonial/01.png"
+                        src="assets/img/testimonial/01.jpg"
                         alt="testi-author"
                       />
                     </div>
@@ -1651,13 +1555,22 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <div class="section-title text-center mb-60">
-                  <h5 class="bottom-line mb-25">Latest News</h5>
-                  <h2 class="mb-25">Lots of new Blogs & News</h2>
+                  <h5 class="bottom-line mb-25">Latest Highlights</h5>
+                  <h2 class="mb-25">Our Achievements & News</h2>
                 </div>
               </div>
+              <div class="row justify-content-center">
+            <div class="col-xl-12 text-center">
+              <div class="portfolio-menu mb-45">
+                <button class="gf_btn active" data-filter="*">All</button>
+                <button class="gf_btn" data-filter=".achi">Achievements</button>
+                <button class="gf_btn" data-filter=".news">News</button>
+              </div>
             </div>
-            <div class="row">
-              <div class="col-lg-4 col-md-6">
+          </div>
+            </div>
+            <div class="grid row">
+              <div class="col-lg-4 col-md-6 grid-item course-card achi">
                 <div
                   class="z-blogs mb-30 wow fadeInUp2 animated"
                   data-wow-delay=".1s"
@@ -1683,7 +1596,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 grid-item course-card achi">
                 <div
                   class="z-blogs mb-30 wow fadeInUp2 animated"
                   data-wow-delay=".2s"
@@ -1710,7 +1623,86 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 grid-item course-card news">
+                <div
+                  class="z-blogs mb-30 wow fadeInUp2 animated"
+                  data-wow-delay=".3s"
+                >
+                  <div class="z-blogs__thumb mb-30">
+                    <a href="blog-details.html"
+                      ><img src="assets/img/blog/03.jpg" alt="blog-img"
+                    /></a>
+                  </div>
+                  <div class="z-blogs__content">
+                    <h5 class="mb-25">Creative . Programmer</h5>
+                    <h4 class="sub-title mb-15">
+                      <a href="blog-details.html"
+                        >Using Social Media to Support Online Teaching</a
+                      >
+                    </h4>
+                    <div
+                      class="z-blogs__meta d-sm-flex justify-content-between pt-20"
+                    >
+                      <span>Date : June 15 , 2021</span>
+                      <span>By Guest Admin</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 grid-item course-card news">
+                <div
+                  class="z-blogs mb-30 wow fadeInUp2 animated"
+                  data-wow-delay=".1s"
+                >
+                  <div class="z-blogs__thumb mb-30">
+                    <a href="blog-details.html"
+                      ><img src="assets/img/blog/01.jpg" alt="blog-img"
+                    /></a>
+                  </div>
+                  <div class="z-blogs__content">
+                    <h5 class="mb-25">Online . School . Skill</h5>
+                    <h4 class="sub-title mb-15">
+                      <a href="blog-details.html"
+                        >5 Ways to Use Padlet in Higher -Ed Online Classroom</a
+                      >
+                    </h4>
+                    <div
+                      class="z-blogs__meta d-sm-flex justify-content-between pt-20"
+                    >
+                      <span>Date : June 15 , 2021</span>
+                      <span>By Guest Admin</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 grid-item course-card achi">
+                <div
+                  class="z-blogs mb-30 wow fadeInUp2 animated"
+                  data-wow-delay=".2s"
+                >
+                  <div class="z-blogs__thumb mb-30">
+                    <a href="blog-details.html"
+                      ><img src="assets/img/blog/02.jpg" alt="blog-img"
+                    /></a>
+                  </div>
+                  <div class="z-blogs__content">
+                    <h5 class="mb-25">Education . Expert</h5>
+                    <h4 class="sub-title mb-15">
+                      <a href="blog-details.html"
+                        >4 New Zoom Features Enhance Virtual Teaching &
+                        Learning</a
+                      >
+                    </h4>
+                    <div
+                      class="z-blogs__meta d-sm-flex justify-content-between pt-20"
+                    >
+                      <span>Date : June 15 , 2021</span>
+                      <span>By Guest Admin</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 grid-item course-card news">
                 <div
                   class="z-blogs mb-30 wow fadeInUp2 animated"
                   data-wow-delay=".3s"
@@ -1737,14 +1729,14 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
               <div
                 class="col-lg-12 text-center mt-20 mb-30 wow fadeInUp2 animated"
                 data-wow-delay=".4s"
               >
                 <a href="blog-details.html" class="theme_btn">Load More</a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -2168,6 +2160,34 @@
           $(".synopsis").hide();
         }, 6000);
       }
+    </script>
+     <script>
+        // Function to fetch data from the API and populate the divs
+        function fetchDataAndPopulateDivs() {
+            $.get("https://app.conext.in/Edentu/offers/", function (data) {
+                // Loop through the data and populate the divs
+                for (let i = 0; i < data.length && i < 3; i++) {
+                    const offer = data[i];
+                    const divId = `div${i + 1}`; // Get the corresponding div ID
+
+                    // Update the div elements with API data
+                    $(`#${divId} .offer_title`).text(offer.offer_title);
+                    $(`#${divId} .poster`).attr("src", offer.poster);
+                    $(`#${divId} .last-date-value`).text(offer.last_date);
+                }
+
+                // Hide any remaining divs if there are fewer than 3 items in the API response
+                for (let i = data.length; i < 3; i++) {
+                    const divId = `div${i + 1}`;
+                    $(`#${divId}`).hide();
+                }
+            });
+        }
+
+        // Call the function to populate the divs when the page loads
+        $(document).ready(function () {
+            fetchDataAndPopulateDivs();
+        });
     </script>
   </body>
 </html>
