@@ -35,7 +35,44 @@
     <link rel="stylesheet" href="assets/css/slick.css" />
     <link rel="stylesheet" href="assets/css/spacing.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+<style>
+     .floating-button {
+        position: fixed;
+        bottom: 20px;
+        right: 25px;
+        background-color: #1a75bc; /* WhatsApp green */
+        color: #fff;
+        width: 70px; /* Set width and height to the same value for a perfect circle */
+        height: 70px;
+        border-radius: 50%; /* Make the button round */
+        cursor: pointer;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px; /* Adjust the font size for larger text */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 9999; /* Set a high z-index to appear above other content */
+      }
+
+      /* Style for WhatsApp logo */
+      .whatsapp-logo {
+        width: 36px; /* Adjust the logo size */
+        height: 36px; /* Adjust the logo size */
+      }
+    </style>
   </head>
+  <a
+    href="https://api.whatsapp.com/send?phone=9207444480"
+    target="_blank"
+    class="floating-button"
+  >
+    <img
+      src="assets/img/logo/wsup-logo.png"
+      alt="WhatsApp Logo"
+      class="whatsapp-logo"
+    />
+  </a>
 
   <body>
     <!--[if lte IE 9]>
@@ -159,7 +196,7 @@
                           </li>
                         </ul>
                       </li> -->
-                      <li class="nav-item-home active">
+                      <li class="nav-item-home ">
                         <a
                           class="nav-link"
                           href="index.html"
@@ -190,7 +227,17 @@
                           </li>
                         </ul> -->
                       </li>
-                      <li class="nav-item dropdown">
+                      <li class="nav-item2">
+                        <a
+                          class="nav-link"
+                          href="about.html"
+                          id="navbarDropdown2"
+                          role="button"
+                          aria-expanded="false"
+                          >About Us</a
+                        >
+                      </li>
+                      <li class="nav-item dropdown active">
                         <a
                           class="nav-link dropdown-toggle"
                           href="#"
@@ -205,22 +252,22 @@
                           aria-labelledby="navbarDropdown3"
                         >
                           <li>
-                            <a class="dropdown-item" href="about.html"
-                              >About Us</a
+                            <a class="dropdown-item" href="sample-materials.html"
+                              >Free Materials</a
                             >
                           </li>
                           </li>
                           <li>
-                            <a
+                             <a
                               class="dropdown-item"
-                              href="instructor-profile.html"
+                              href="instructor.html"
                               >Instructors</a
                             >
                           </li>
                           
                         </ul>
                       </li>
-                      <li class="nav-item dropdown">
+                      <!-- <li class="nav-item dropdown">
                         <a
                           class="nav-link dropdown-toggle"
                           href="#"
@@ -266,7 +313,7 @@
                             >
                           </li>
                         </ul>
-                      </li>
+                      </li> -->
                       <li class="nav-item">
                         <a
                           class="nav-link"
@@ -363,58 +410,10 @@
       <!-- side-mobile-menu start -->
       <nav class="side-mobile-menu">
         <ul id="mobile-menu-active">
-          <li class="has-dropdown">
-            <a href="index.html">Home</a>
-            <ul class="sub-menu">
-              <li><a href="index.html">Home Style 1</a></li>
-              <li><a href="index-2.html">Home Style 2</a></li>
-              <li><a href="index-3.html">Home Style 3</a></li>
-            </ul>
-          </li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li class="has-dropdown">
-            <a href="#">Quick Links</a>
-            <ul class="sub-menu">
-              <li><a href="instructor-profile.html">Instructors</a></li>
-             
+            <li><a href="instructor-profile.html">Instructors</a></li>
               <li><a href="https://study.edentu.com/">Sign Up</a></li>
-            </ul>
-          </li>
-          <li class="has-dropdown">
-            <a href="#">Courses</a>
-            <ul class="sub-menu">
-             <li>
-                            <a  href="course-details.html"
-                              >NEET MDS</a
-                            >
-                          </li>
-                          <li>
-                            <a  href="course-details.html"
-                              >First Year BDS</a
-                            >
-                          </li>
-                          <li>
-                            <a  href="course-details.html"
-                              >Second Year BDS</a
-                            >
-                          </li>
-                          <li>
-                            <a  href="course-details.html"
-                              >Third Year BDS</a
-                            >
-                          </li>
-                          <li>
-                            <a  href="course-details.html"
-                              >First Year Part-1</a
-                            >
-                          </li>
-                          <li>
-                            <a  href="course-details.html"
-                              >First Year Part-2</a
-                            >
-                          </li>
-            </ul>
-          </li>
           <li><a href="contact.html">Contacts Us</a></li>
         </ul>
       </nav>
@@ -429,10 +428,10 @@
         <div class="container">
           <div class="row align-items-center">  <div class="col-lg-4 order-lg-last">
               <div class="contact-img d-none d-xs-none d-sm-block contact-img-02 mb-30">
-                <img class="img-fluid" src="assets/img/instructor/bala2.png" alt="" />
+                <img class="img-fluid" src="assets/img/instructor/bala4.png" alt="" />
               </div>
              
-                <img class="img-fluid d-sm-none d-xs-block mb-30" src="assets/img/instructor/bala2.png" alt="" />
+                <img class="img-fluid d-sm-none d-xs-block mb-30" src="assets/img/instructor/bala4.png" alt="" />
               
             </div>
               <div class="col-lg-7 ">
@@ -453,245 +452,339 @@ His significant contributions to the "Dental Pulse - NEET MDS Entrance" book and
         </div>
       </section>
       <!-- course-instructor start -->
-      <section
-        class="course-instructor nav-style-two pt-150 pb-120 pt-md-95 pb-md-70 pt-xs-95 pb-xs-70"
-      >
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="section-title text-center mb-60">
-                <h5 class="bottom-line mb-25">Our Instructor</h5>
-                <h2 class="mb-25">Explore Experienced Instructor</h2>
+       <section class="course-instructor nav-style-two pos-rel">
+          <div class="course-blur-shape"></div>
+          <div
+            class="course-bg-space pt-100 pb-100 pt-md-95 pb-xs-0 pb-md-10 pt-xs-10 "
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-8 col-lg-9">
+                  <div class="section-title text-center text-md-start mb-60">
+                     <h5 class="bottom-line  mb-10" >Our Experienced Instructors</h5>
+                    <h2 class="mb-25">NEET MDS Faculty</h2>
+                  </div>
+                </div>
               </div>
+              <div class="instructor-active owl-carousel">            
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/bala4.png" alt="" />
+                      
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title ">
+                        Dr. M.S Balakrishna 
+                      </h4>
+                      <p>Oral and Maxillofacial Surgery</p>
+                    </div>
+                  </div>
+                </div>
+                 <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/hridya.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                       Dr. Hridya Gokhalai
+                      </h4>
+                      <p>Pedodontics</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/raghavi.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                       Dr. Raghavi. C  
+                      </h4>
+                      <p>Biochemistry</p>
+                    </div>
+                  </div>
+                </div>
+                 <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/nandhini.jpg" alt="" />
+                      
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title ">
+                        Dr. Nandhini Aishwarya
+                      </h4>
+                      <p>Anatomy</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/gopikrishna.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                        Dr.Gopikrishnan V
+                      </h4>
+                      <p>Oral pathology</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/jayanthi.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                        Dr. P  Jayanthi   
+                      </h4>
+                      <p>Oral pathology</p>
+                    </div>
+                  </div>
+                </div>
+               <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/subromony.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                       Dr. Subramony B
+                      </h4>
+                      <p>Periodontics</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/ajna-alex.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                       Dr.Ajna Alex
+                      </h4>
+                      <p>Pedodontics</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <div style="color: #1A75BC;" class="d-md-block d-lg-none mb-xs-40  align-items-center indicators d-flex justify-content-center  mb-20 " > 
+Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
+                </div>
+            </div>
+            <div class="container mt-80 mt-md-50 mt-lg-40 mt-xs-20">
+              <div class="row">
+                <div class="col-xl-8 col-lg-9">
+                  <div class="section-title text-center text-md-start mb-60">
+                   
+                    <h2 class="mb-25">BDS Faculty</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="instructor-active owl-carousel">
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/nandhini.jpg" alt="" />
+                      
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title ">
+                        Dr. Nandhini Aishwarya
+                      </h4>
+                      <p>Anatomy</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/subromony.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                       Dr. Subramony B
+                      </h4>
+                      <p>Periodontics</p>
+                    </div>
+                  </div>
+                </div>
+               <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/aneen.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                       Dr. Aneen Suresh
+                      </h4>
+                      <p>Periodontics</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/geethanjali.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                        Dr. Geethanjali. M
+                      </h4>
+                      <p>Microbiology</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/maria.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                      Dr. Maria Jose
+                      </h4>
+                      <p>Pharmacology</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/utkal.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                        Dr. Uthkal M.P  
+                      </h4>
+                      <p>Oral Medicine and Radiology</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/sreelekha.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                       Dr. Sreelekha Sreedhar
+                      </h4>
+                      <p>General Medicine</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/bala4.png" alt="" />
+                      
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title ">
+                        Dr. M.S Balakrishna 
+                      </h4>
+                      <p>Oral and Maxillofacial Surgery</p>
+                    </div>
+                  </div>
+                </div>
+                    <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/gopikrishna.jpg" alt="" />
+
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title">
+                        Dr.Gopikrishnan V
+                      </h4>
+                      <p>Oral pathology</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/sreshta.jpg" alt="" />
+                      
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title ">
+                        Dr. Shreshta  Sathish
+                      </h4>
+                      <p>Prosthodontics</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/sujatha.jpg" alt="" />
+                      
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title ">
+                         Dr. Sujatha. R
+                      </h4>
+                      <p>Biochemistry</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/krishna.jpg" alt="" />
+                      
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title ">
+                         Dr. Krishnakumar. R
+                      </h4>
+                      <p>Pedodontics</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="z-instructors text-center mb-30">
+                    <div class="z-instructors__thumb mb-15">
+                      <img src="assets/img/instructor/saheer.jpg" alt="" />
+                      
+                    </div>
+                    <div class="z-instructors__content">
+                      <h4 class="sub-title ">
+                         Dr. Abdul Zaheer
+                      </h4>
+                      <p>Public Health Dentistry</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <div style="color: #1A75BC;" class="d-md-block d-lg-none  align-items-center indicators d-flex justify-content-center  mb-20 " > 
+Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
+                </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-              <div class="z-instructors text-center mb-30">
-                <div class="z-instructors__thumb mb-15">
-                  <img src="assets/img/instructor/01.jpg" alt="" />
-                  <div class="social-media">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                  </div>
-                </div>
-                <div class="z-instructors__content">
-                  <h4 class="sub-title mb-10">
-                    <a href="instructor-profile.html">John Zlathan</a>
-                  </h4>
-                  <p>Software Development</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-              <div class="z-instructors text-center mb-30">
-                <div class="z-instructors__thumb mb-15">
-                  <img src="assets/img/instructor/02.jpg" alt="" />
-                  <div class="social-media">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                  </div>
-                </div>
-                <div class="z-instructors__content">
-                  <h4 class="sub-title mb-10">
-                    <a href="instructor-profile.html">Mally Yan</a>
-                  </h4>
-                  <p>UI/UX Designer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-              <div class="z-instructors text-center mb-30">
-                <div class="z-instructors__thumb mb-15">
-                  <img src="assets/img/instructor/03.jpg" alt="" />
-                  <div class="social-media">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                  </div>
-                </div>
-                <div class="z-instructors__content">
-                  <h4 class="sub-title mb-10">
-                    <a href="instructor-profile.html">Mesud Lamb</a>
-                  </h4>
-                  <p>Programmer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-              <div class="z-instructors text-center mb-30">
-                <div class="z-instructors__thumb mb-15">
-                  <img src="assets/img/instructor/04.jpg" alt="" />
-                  <div class="social-media">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                  </div>
-                </div>
-                <div class="z-instructors__content">
-                  <h4 class="sub-title mb-10">
-                    <a href="instructor-profile.html">Havana Lyon</a>
-                  </h4>
-                  <p>Digital Marketing</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-              <div class="z-instructors text-center mb-30">
-                <div class="z-instructors__thumb mb-15">
-                  <img src="assets/img/instructor/09.jpg" alt="" />
-                  <div class="social-media">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                  </div>
-                </div>
-                <div class="z-instructors__content">
-                  <h4 class="sub-title mb-10">
-                    <a href="instructor-profile.html">Lebron Jain</a>
-                  </h4>
-                  <p>IT Specialist</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-              <div class="z-instructors text-center mb-30">
-                <div class="z-instructors__thumb mb-15">
-                  <img src="assets/img/instructor/10.jpg" alt="" />
-                  <div class="social-media">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                  </div>
-                </div>
-                <div class="z-instructors__content">
-                  <h4 class="sub-title mb-10">
-                    <a href="instructor-profile.html">Ariana Cany</a>
-                  </h4>
-                  <p>UArt Specialist</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-              <div class="z-instructors text-center mb-30">
-                <div class="z-instructors__thumb mb-15">
-                  <img src="assets/img/instructor/11.jpg" alt="" />
-                  <div class="social-media">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                  </div>
-                </div>
-                <div class="z-instructors__content">
-                  <h4 class="sub-title mb-10">
-                    <a href="instructor-profile.html">George Emily</a>
-                  </h4>
-                  <p>HR Manager</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-              <div class="z-instructors text-center mb-30">
-                <div class="z-instructors__thumb mb-15">
-                  <img src="assets/img/instructor/12.jpg" alt="" />
-                  <div class="social-media">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                  </div>
-                </div>
-                <div class="z-instructors__content">
-                  <h4 class="sub-title mb-10">
-                    <a href="instructor-profile.html">Chris Jordan</a>
-                  </h4>
-                  <p>Dance Specialist</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
+
       <!-- course-instructor end -->
-      <!--what-loking-for start-->
-      <section
-        class="what-looking-for pos-rel gradient-bg pt-145 pb-130 pt-md-95 pb-md-80 pt-xs-95 pb-xs-80"
-      >
-        <div class="what-blur-shape-one"></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="section-title text-center mb-55">
-                <h5 class="bottom-line mb-25">Teachers & Students</h5>
-                <h2>What you Looking For?</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <div class="what-box text-center mb-3">
-                <div class="what-box__icon mb-30">
-                  <img src="assets/img/icon/phone-operator.svg" alt="" />
-                </div>
-                <h3>Do you want to teach here?</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  di nonumy eirmod tempor invidunt ut labore et dolore magn aliq
-                  erat.
-                </p>
-                <a href="contact.html" class="theme_btn border_btn"
-                  >Register Now</a
-                >
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6">
-              <div class="what-box text-center mb-3">
-                <div class="what-box__icon mb-30">
-                  <img src="assets/img/icon/graduate.svg" alt="" />
-                </div>
-                <h3>Do you want to learn here?</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  di nonumy eirmod tempor invidunt ut labore et dolore magn aliq
-                  erat.
-                </p>
-                <a href="contact.html" class="theme_btn border_btn active"
-                  >Register Now</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--what-loking-for end-->
-      <!-- subscribe-area start -->
-      <section class="subscribe-area border-bot pt-145 pb-50 pt-md-90 pt-xs-90">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xl-8">
-              <div class="subscribe-wrapper text-center mb-30">
-                <h2>Subscribe our Newsletter & Get every updates.</h2>
-                <div class="subscribe-form-box pos-rel">
-                  <form class="subscribe-form">
-                    <input type="text" placeholder="Write Your E-mail" />
-                  </form>
-                  <button class="sub_btn">Subscribe Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- subscribe-area end -->
     </main>
     <!--footer-area start-->
     <footer class="footer-area pt-70 pb-40">

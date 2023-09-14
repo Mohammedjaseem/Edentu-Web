@@ -35,8 +35,45 @@
     <link rel="stylesheet" href="assets/css/slick.css" />
     <link rel="stylesheet" href="assets/css/spacing.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
 
+<style>
+     .floating-button {
+        position: fixed;
+        bottom: 20px;
+        right: 25px;
+        background-color: #1a75bc; /* WhatsApp green */
+        color: #fff;
+        width: 70px; /* Set width and height to the same value for a perfect circle */
+        height: 70px;
+        border-radius: 50%; /* Make the button round */
+        cursor: pointer;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px; /* Adjust the font size for larger text */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 9999; /* Set a high z-index to appear above other content */
+      }
+
+      /* Style for WhatsApp logo */
+      .whatsapp-logo {
+        width: 36px; /* Adjust the logo size */
+        height: 36px; /* Adjust the logo size */
+      }
+    </style>
+  </head>
+  <a
+    href="https://api.whatsapp.com/send?phone=9207444480"
+    target="_blank"
+    class="floating-button"
+  >
+    <img
+      src="assets/img/logo/wsup-logo.png"
+      alt="WhatsApp Logo"
+      class="whatsapp-logo"
+    />
+  </a>
   <body>
     <!--[if lte IE 9]>
       <p class="browserupgrade">
@@ -56,7 +93,7 @@
     </div>
     <!-- preloader end  -->
 
-       <header>
+   <header>
       <div
         id="theme-menu-one"
         class="main-header-area pl-100 pr-100 pt-20 pb-15"
@@ -161,7 +198,7 @@
                           </li>
                         </ul>
                       </li> -->
-                      <li class="nav-item-home active">
+                      <li class="nav-item-home ">
                         <a
                           class="nav-link"
                           href="index.html"
@@ -192,6 +229,16 @@
                           </li>
                         </ul> -->
                       </li>
+                      <li class="nav-item2 active">
+                        <a
+                          class="nav-link"
+                          href="about.html"
+                          id="navbarDropdown2"
+                          role="button"
+                          aria-expanded="false"
+                          >About Us</a
+                        >
+                      </li>
                       <li class="nav-item dropdown">
                         <a
                           class="nav-link dropdown-toggle"
@@ -207,22 +254,22 @@
                           aria-labelledby="navbarDropdown3"
                         >
                           <li>
-                            <a class="dropdown-item" href="about.html"
-                              >About Us</a
+                            <a class="dropdown-item" href="sample-materials.html"
+                              >Free Materials</a
                             >
                           </li>
                           </li>
                           <li>
-                            <a
+                             <a
                               class="dropdown-item"
-                              href="instructor-profile.html"
+                              href="instructor.html"
                               >Instructors</a
                             >
                           </li>
-                         
+                          
                         </ul>
                       </li>
-                      <li class="nav-item dropdown">
+                      <!-- <li class="nav-item dropdown">
                         <a
                           class="nav-link dropdown-toggle"
                           href="#"
@@ -268,7 +315,7 @@
                             >
                           </li>
                         </ul>
-                      </li>
+                      </li> -->
                       <li class="nav-item">
                         <a
                           class="nav-link"
@@ -365,58 +412,10 @@
       <!-- side-mobile-menu start -->
       <nav class="side-mobile-menu">
         <ul id="mobile-menu-active">
-          <li class="has-dropdown">
-            <a href="index.html">Home</a>
-            <ul class="sub-menu">
-              <li><a href="index.html">Home Style 1</a></li>
-              <li><a href="index-2.html">Home Style 2</a></li>
-              <li><a href="index-3.html">Home Style 3</a></li>
-            </ul>
-          </li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li class="has-dropdown">
-            <a href="#">Quick Links</a>
-            <ul class="sub-menu">
-              <li><a href="instructor-profile.html">Instructors</a></li>
-            
+            <li><a href="instructor-profile.html">Instructors</a></li>
               <li><a href="https://study.edentu.com/">Sign Up</a></li>
-            </ul>
-          </li>
-          <li class="has-dropdown">
-            <a href="#">Courses</a>
-            <ul class="sub-menu">
-             <li>
-                            <a  href="course-details.html"
-                              >NEET MDS</a
-                            >
-                          </li>
-                          <li>
-                            <a  href="course-details.html"
-                              >First Year BDS</a
-                            >
-                          </li>
-                          <li>
-                            <a  href="course-details.html"
-                              >Second Year BDS</a
-                            >
-                          </li>
-                          <li>
-                            <a  href="course-details.html"
-                              >Third Year BDS</a
-                            >
-                          </li>
-                          <li>
-                            <a  href="course-details.html"
-                              >First Year Part-1</a
-                            >
-                          </li>
-                          <li>
-                            <a  href="course-details.html"
-                              >First Year Part-2</a
-                            >
-                          </li>
-            </ul>
-          </li>
           <li><a href="contact.html">Contacts Us</a></li>
         </ul>
       </nav>
