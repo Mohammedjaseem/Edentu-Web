@@ -386,7 +386,7 @@
 		});
 		   
 		    
-		    $grid.isotope({ filter: '.cat2' });
+		    $grid.isotope({ filter: '.cat1' });
 		// filter items on button click
 		$('.portfolio-menu').on('click', 'button', function () {
 			var filterValue = $(this).attr('data-filter');
