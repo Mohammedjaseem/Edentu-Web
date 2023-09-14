@@ -2717,7 +2717,7 @@ input.main-search-input:-ms-input-placeholder {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   line-height: 1;
-  padding: 18px 35px;
+  padding: 10px 24px;
   display: inline-block;
   border-radius: 40px;
   position: relative;
@@ -5730,6 +5730,13 @@ background-color: #FFD100;
     padding-left: 0;
   }
 }
+@media (max-width: 462px) {
+.chose-img-wrapper .video-wrapper {
+  left: 57px;
+  top:218px;
+}
+}
+
 
 .chose-img-wrapper .video-wrapper {
   position: absolute;
@@ -5851,8 +5858,8 @@ background-color: #FFD100;
 }
 
 .feature.tag_02 {
-  right: 10px;
-  top: 152px;
+  right: -55px;
+  top: 290px;
   font-weight: 600;
 }
 
