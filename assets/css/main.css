@@ -8289,7 +8289,7 @@ color:#eac300cc;
 
 @media (max-width: 767px) {
   .single-contact-box {
-    padding: 45px 15px;
+    padding: 45px 25px;
   }
 }
 @media (max-width: 991px) {
@@ -8303,6 +8303,7 @@ display: block !important;
 .single-contact-box .contact__iocn {
   background: #05AFF2;
   width: 60px;
+  min-width: 60px;
   height: 60px;
   text-align: center;
   border-radius: 50%;
@@ -8323,6 +8324,7 @@ display: block !important;
   .single-contact-box .contact__iocn {
     float: none;
     margin-bottom: 15px;
+
   }
 }
 
