@@ -936,7 +936,7 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
       <!--great-deal-area end-->
 
       <!-- case-gallery start -->
-      <section class="feature-course pb-80 pt-md-95 pb-md-80 pt-xs-40 pb-xs-0">
+      <section id="course-section" class="feature-course pb-80 pt-md-95 pb-md-80 pt-xs-40 pb-xs-0">
         <div class="container">
           <div class="row">
             <div class="col-xl-12">
@@ -1427,7 +1427,7 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
       <!-- why-chose-section-wrapper start -->
       <!-- testimonial-area start -->
       <section
-        class="testimonial-area testimonial-pad pt-60 pb-120 pt-md-95 pb-md-70 pt-xs-95 pb-xs-70"
+       id="testimonials" class="testimonial-area testimonial-pad pt-60 pb-120 pt-md-95 pb-md-70 pt-xs-95 pb-xs-70"
       >
         <div class="container custom-container-testimonial">
           <div class="row align-items-center">
@@ -1695,14 +1695,13 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
             data-wow-delay=".3s"
           >
             <div class="footer__widget mb-30 pl-40 pl-md-0 pl-xs-0">
-              <h6 class="widget-title mb-35">Contact us</h6>
+              <h6 class="widget-title mb-35"><a href="contact.html">Contact us</a></h6>
               <ul class="fot-list">
-                <li><a href="#">info@example.com</a></li>
-                <li><a href="#">+00 235 695 58</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="contact.html">Contacts</a></li>
-                <li><a href="#">Our Careers</a></li>
+                <li><a href="mailto:info@edentu.com">info@edentu.com</a></li>
+                <li><a href="tel:+919207444480">+91 9207 444 480</a></li>
+                <li><b>Address:</b><br>
+                14/291 N, Suit 61 A, First Floor, A Square, Edathala PO, Kuzhivelippady, Cochin, Kerala-683561
+                </li>
               </ul>
             </div>
           </div>
@@ -1714,9 +1713,9 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
               <h6 class="widget-title mb-35">Quick Links</h6>
               <ul class="fot-list">
                 <li><a href="about.html">About US</a></li>
-                <li><a href="#">Explore Pages</a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Destinations</a></li>
+                <li><a href="index.html#edentu-about">Our Speciality</a></li>
+                <li><a href="index.html#course-section">Our Courses</a></li>
+                <li><a href="instructor.html">Our Instructors</a></li>
               </ul>
             </div>
           </div>
@@ -1725,12 +1724,37 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
             data-wow-delay=".7s"
           >
             <div class="footer__widget mb-30 pl-150 pl-lg-0 pl-md-0 pl-xs-0">
-              <h6 class="widget-title mb-35">Features</h6>
+              <h6 class="widget-title mb-35">Highlights</h6>
               <ul class="fot-list mb-30">
-                <li><a href="index.html">Home Page</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="blog.html">Latest News</a></li>
-                <li><a href="#">Help Center</a></li>
+                <li><a href="achievements-page.html">Achievements</a></li>
+                <li><a href="news-page.html">Latest News</a></li>
+                <li><a href="index.html#testimonials">Testimonials</a></li>
+               <li >
+                  <button
+                        id="google-button"
+                        class="theme_btn2 search_btn2 mr-10"
+                      >
+                        <img
+                          src="assets/img/icon/store-icon1.png"
+                          alt=""
+                          class="store-logo2"
+                        />
+                      
+                      </button>
+               </li>
+               <li style="padding-top: 10px;">
+                      <button
+                        id="apple-button"
+                        class="theme_btn2 d-flex search_btn2 mr-10"
+                      >
+                        <img
+                          src="assets/img/icon/store-icon2.png"
+                          alt=""
+                          class="store-logo2"
+                        />
+                      </button>
+               </li>
+               
               </ul>
             </div>
           </div>
@@ -1742,7 +1766,7 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
             <div class="col-lg-12">
               <div class="copyright text-center">
                 <h5>
-                  Copyright@ 2021 <a href="#">Edentu</a>. All Rights Reserved
+                  Copyright@ 2023 <a href="#">Edentu</a>. All Rights Reserved
                 </h5>
               </div>
             </div>
