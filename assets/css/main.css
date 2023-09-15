@@ -5725,6 +5725,9 @@ background-color: #FFD100;
 .text-list  li:nth-child(3)::before {
   background-color: #05AFF2;
 }
+.text-list  li:nth-child(6)::before {
+  background-color: #05AFF2;
+}
 
 /* .text-list li:last-child::before {
   background-color: #05AFF2;
