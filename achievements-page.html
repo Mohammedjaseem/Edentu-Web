@@ -640,7 +640,17 @@
     <script src="assets/js/main.js"></script>
     <script>
     // Function to create and append a blog item div
-    function createBlogItem(item) {
+    function formatDate(dateString) {
+    console.log(dateString,'date');
+        const date = new Date(dateString);
+        const options = { year: "numeric", month: "long", day: "numeric" };
+        return date.toLocaleDateString("en-US", options);
+      }
+    // Function to create and append a blog item div
+    function createBlogItem(item, containerType) {
+      var 
+         achiDate = formatDate(item.date);
+     
         const container = document.createElement("div");
         container.className = `col-lg-4 col-md-6 grid-item course-card `;
 
@@ -683,7 +693,7 @@
         meta.className = "z-blogs__meta d-sm-flex justify-content-between pt-20";
 
         const date = document.createElement("span");
-        date.textContent = `Date : ${item.news_date || item.date}`;
+        date.textContent = `Date : ${ achiDate}`;
 
         const admin = document.createElement("span");
         admin.textContent = "By Admin";
@@ -727,7 +737,7 @@
             // Loop through the first 3 items in the API response
             for (let i = 0;  i < data.length; i++) {
                 const item = data[i];
-                const blogItem = createBlogItem(item);
+                const blogItem =createBlogItem(item);
                 container.appendChild(blogItem);
             }
              document.getElementById("loading").style.display = "none";
