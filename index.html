@@ -106,7 +106,7 @@
     </style>
   </head>
   <a
-    href="https://api.whatsapp.com/send?phone=+919207444480"
+     href="https://api.whatsapp.com/send?phone=919207444480"
     target="_blank"
     class="floating-button"
   >
@@ -1800,8 +1800,22 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <script>
+   function formatDate(dateString) {
+    console.log(dateString,'date');
+        const date = new Date(dateString);
+        const options = { year: "numeric", month: "long", day: "numeric" };
+        return date.toLocaleDateString("en-US", options);
+      }
     // Function to create and append a blog item div
-    function createBlogItem(item) {
+    function createBlogItem(item, containerType) {var newsDate; 
+      var achiDate; 
+      if (containerType==='blogContainer') {
+         console.log(item.news_date,'News date');
+         newsDate = formatDate(item.news_date);
+      }else{
+         console.log(item.date,'date');
+         achiDate = formatDate(item.date);
+      }
         const container = document.createElement("div");
         container.className = `col-lg-4 col-md-6 grid-item course-card `;
 
@@ -1844,7 +1858,7 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
         meta.className = "z-blogs__meta d-sm-flex justify-content-between pt-20";
 
         const date = document.createElement("span");
-        date.textContent = `Date : ${item.news_date || item.date}`;
+        date.textContent = `Date : ${newsDate|| achiDate}`;
 
         const admin = document.createElement("span");
         admin.textContent = "By Admin";
@@ -1884,7 +1898,9 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
             if (data.length <= 2) {
                 container.classList.add("justify-content-center");
             }
+          
 if (data.length>3 && containerId === 'blogContainer') {
+  
   const load = document.getElementById('newsUpdate');
   load.style.display='block';
 }
@@ -1895,7 +1911,7 @@ if (data.length>3 && containerId === 'achiContainer') {
             // Loop through the first 3 items in the API response
             for (let i = 0; i < 3 && i < data.length; i++) {
                 const item = data[i];
-                const blogItem = createBlogItem(item);
+                const blogItem = createBlogItem(item,containerId);
                 container.appendChild(blogItem);
             }
         } catch (error) {
