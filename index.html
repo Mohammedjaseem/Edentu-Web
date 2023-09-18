@@ -1820,8 +1820,7 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
         const thumb = document.createElement("div");
         thumb.className = "z-blogs__thumb mb-30";
 
-        const thumbLink = document.createElement("a");
-        thumbLink.href = item.link;
+
 
         const thumbImage = document.createElement("img");
         thumbImage.src = item.poster;
@@ -1829,9 +1828,7 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
         thumbImage.style.width = '100%';
         thumbImage.style.height = '400px';
         thumbImage.style.objectFit = 'fill';
-
-        thumbLink.appendChild(thumbImage);
-        thumb.appendChild(thumbLink);
+         thumb.appendChild(thumbImage);
 
         const content = document.createElement("div");
         content.className = "z-blogs__content";
@@ -1843,10 +1840,9 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
 
         const title = document.createElement("h4");
         title.className = "sub-title mb-15";
-        const titleLink = document.createElement("a");
-        titleLink.href = item.link;
-        titleLink.textContent = item.title;
-        title.appendChild(titleLink);
+  
+        title.textContent = item.title;
+      
 
         const meta = document.createElement("div");
         meta.className = "z-blogs__meta d-sm-flex justify-content-between pt-20";
@@ -1867,7 +1863,6 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
         blog.appendChild(content);
 
         container.appendChild(blog);
-
         return container;
     }
 
