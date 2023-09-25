@@ -386,15 +386,40 @@
 		});
 		   
 		    
-		    $grid.isotope({ filter: '.cat2' });
+		    $grid.isotope({ filter: '.cat2, .cat1-phone' });
 		// filter items on button click
 		$('.portfolio-menu').on('click', 'button', function () {
 			var filterValue = $(this).attr('data-filter');
 			$grid.isotope({ filter: filterValue });
 		});
 	});
+	$('.phone-grid').imagesLoaded(function () {
+		// init Isotope
+		var $phoneGrid = $('.phone-grid').isotope({
+			itemSelector: '.phone-grid-item',
+			percentPosition: true,
+			masonry: {
+				// use outer width of grid2-sizer for columnWidth
+				columnWidth: 0,
+				gutter: 0
+			}
+		});
+		   
+		    
+		    $phoneGrid.isotope({ filter: '.cat1-phone, .cat2' });
+		// filter items on button click
+		$('.portfolio-menu-phone').on('click', 'button', function () {
+			var filterValue = $(this).attr('data-filter');
+			$phoneGrid.isotope({ filter: filterValue });
+		});
+	});
 
 	//for menu active class
+	$('.portfolio-menu-phone button').on('click', function (event) {
+		$(this).siblings('.active').removeClass('active');
+		$(this).addClass('active');
+		event.preventDefault();
+	});
 	$('.portfolio-menu button').on('click', function (event) {
 		$(this).siblings('.active').removeClass('active');
 		$(this).addClass('active');
