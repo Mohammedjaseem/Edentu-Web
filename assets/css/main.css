@@ -3038,6 +3038,7 @@ input.main-search-input:-ms-input-placeholder {
 
 .slider__img__box {
   position: relative;
+  text-align: center;
   z-index: 1;
 }
 
