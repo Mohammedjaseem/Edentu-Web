@@ -2176,26 +2176,24 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!-- Include any necessary CSS and JavaScript libraries, such as Bootstrap and jQuery. -->
 <script>
-
-  // Function to fetch the API response
   function fetchApiData() {
     fetch('https://app.conext.in/Edentu/api/latest-popup/')
       .then(response => response.json())
       .then(data => {
-        Swal.fire({
-          //  showCancelButton: true,
-          //   cancelButtonColor: '#d33',
-          confirmButtonText: data.button_title,
-  confirmButtonColor: '#1A75BC',
-  imageUrl: `https://app.conext.in${data.poster}`,
-  imageWidth: 450,
-  imageHeight: 450,
-  imageAlt: 'Popup'
-}).then((result) => {
-  if (result.isConfirmed) {
-    window.open(data.web_link, '_blank');
-  }
-});
+        if (data.poster && data.button_title) {
+          Swal.fire({
+            confirmButtonText: data.button_title,
+            confirmButtonColor: '#1A75BC',
+            imageUrl: `https://app.conext.in${data.poster}`,
+            imageWidth: 450,
+            imageHeight: 450,
+            imageAlt: 'Popup'
+          }).then((result) => {
+            if (result.isConfirmed) {
+              window.open(data.web_link, '_blank');
+            }
+          });
+        }
       })
       .catch(error => {
         console.error('Error fetching API: ', error);
@@ -2203,11 +2201,8 @@ Swipe to explore&nbsp;<i class="fa fa-long-arrow-right"></i>
   }
 
   // Call the function to display the API response and trigger the modal on page load
-  window.onload = fetchApiData();
+  window.onload = fetchApiData;
 </script>
-
-
-
 
 
 
