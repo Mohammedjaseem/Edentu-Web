@@ -1,0 +1,200 @@
+/****************************
+**  Style for all devices  **
+****************************/
+
+/*
+General
+*/
+
+
+.misc_children {
+    border-bottom: solid thin rgb(220, 220, 220);
+    padding-bottom: 2rem;
+    margin: 2rem 0;
+}
+.misc_child {
+  
+    padding-bottom: 2rem;
+    margin: 2rem 0;
+}
+
+/*
+Page header
+*/
+
+header {
+    margin: -0.5 -0.5em 0 -0.5em;
+    text-align: center;
+}
+
+/*
+Section headings
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+    font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/*
+General content elements and styles
+*/
+
+
+
+blockquote {
+    border-left: solid thick #b91e27;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+    color: #b91e27;
+}
+
+
+
+/********************************************
+**  Style for devices with small displays  **
+********************************************/
+@media (max-width: 46.9em) {
+
+    /*
+General
+*/
+
+    section {
+        margin: 0 -0.5em 1em -0.5em;
+        padding: 0 0.5em 1em 0.5em;
+    }
+
+    /*
+Page header
+*/
+
+    header h1 {
+        padding: 0.5em 0 0 0;
+        font-size: 2.5em;
+    }
+
+    /*
+Section headings
+ */
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+        margin: 0.2em 0 0 1em;
+        padding: 0.1em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        /*  margin: 0 0 1em 0;*/
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.13em;
+    }
+
+    h4 {
+        font-size: 1.07em;
+    }
+
+
+   
+
+
+
+/********************************************
+**  Style for devices with large displays  **
+********************************************/
+@media (min-width: 47em) {
+
+
+    /*
+General
+*/
+
+    section {
+        margin: 0 -0.5em 1em -0.5em;
+        padding: 2em 8% 2em 8%;
+    }
+
+
+    /*
+Page header
+*/
+
+    header {
+        margin: 0 -0.5em 0 -0.5em;
+    }
+
+    header h1 {
+        padding: 0.5em 0 0 0;
+        font-size: 4em;
+    }
+
+
+    /*
+Section headings
+ */
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0.8em 0 0 7%;
+        padding: 0.2em;
+    }
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        margin: 0 0 1em 0;
+    }
+
+    h2 {
+        font-size: 1.65em;
+    }
+
+    h3 {
+        font-size: 1.4em;
+    }
+
+    h4 {
+        font-size: 1.15em;
+    }
+
+
+    /*
+Other content elements
+*/
+
+    blockquote {
+        padding: 0 0 0 1.2em;
+        margin: 0 6em 0 4em;
+    }
+
+    
+}}
