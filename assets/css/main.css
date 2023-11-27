@@ -158,6 +158,90 @@ ul {
 li {
   list-style: none;
 }
+ol li{
+font-size: 1.1rem;
+}
+.terms{
+    padding:0 4rem ;
+}
+.terms ol {
+  list-style-type: none;
+  counter-reset: my-counter;
+}
+
+.terms ol li {
+  counter-increment: my-counter;
+  margin-top: 15px;
+}
+
+.terms ol li::before {
+  content: counter(my-counter) ". ";
+  /* Use counter to display the current number */
+  font-weight: bold;
+  color: #000;
+  font-size: 1.2rem;
+  /* Make the number bold */
+  margin-right: 5px;
+  /* Add a little space between the number and the content */
+} /* Add a little space between the number and the content */
+.terms  .roman-ol ol{
+  list-style-type: none;
+    counter-reset: roman-counter;
+}
+.terms .roman-ol ol li{
+    counter-increment: roman-counter;
+      margin-top: 15px;
+}
+
+.terms .roman-ol ol li:before {
+content: counter(roman-counter, lower-roman) ". ";
+  /* Use lower-roman to display lowercase Roman numerals */
+  font-weight: bold;
+  color: #000;
+  font-size: 1.1rem;
+  /* Make the number bold */
+  margin-right: 5px;
+  /* Add a little space between the number and the content */
+} 
+.terms  .abc-ol ol{
+  list-style-type: none;
+    counter-reset: alphabet-counter;
+}
+.terms .abc-ol ol li{
+  counter-increment: alphabet-counter;
+  font-size: 1rem;
+    margin-top: 15px;
+}
+
+
+.terms .abc-ol ol li:before {
+  content: counter(alphabet-counter, lower-alpha) ". ";
+    /* Use lower-alpha to display lowercase alphabet letters */
+    font-weight: bold;
+    color: #000;
+    font-size: 1.05rem;
+    /* Make the letter bold */
+    margin-right: 5px;
+    /* Add a little space between the letter and the content */
+} 
+.terms ol .bulletins ul {
+list-style-type: none;
+counter-increment:disc-counter;
+  margin-top: 15px;
+  margin-left: 20px;
+  /* Adjust the margin-left to provide indentation */
+}
+
+.terms ol .bulletins ul li {
+  counter-increment: disc-counter;
+  font-size: 0.99rem;
+  margin-top: 10px;
+  /* Adjust the margin-top if needed */
+}
+.terms ol .bulletins ul li::before {
+  content: counter(disc-counter, disc);
+  font-size: 1.4rem;
+}
 
 p {
   font-size: 16px;
@@ -327,6 +411,12 @@ label {
   .pad-bottom-sm {
     padding-bottom: 100px;
   }
+}
+
+@media  (max-width: 767px) {
+  .terms {
+      padding: 0 1.5rem;
+    }
 }
 
 /*--
