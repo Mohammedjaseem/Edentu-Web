@@ -2354,7 +2354,7 @@ if (data.length>3 && containerId === 'achiContainer') {
   load.style.display='block';
 }
             // Loop through the first 3 items in the API response
-            for (let i = 0; i < 3 && i < data.length; i++) {
+            for (let i = 0; i < 10 && i < data.length; i++) {
                 const item = data[i];
                 const blogItem = createBlogItem(item,containerId);
                 container.appendChild(blogItem);
